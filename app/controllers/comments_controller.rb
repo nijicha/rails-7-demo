@@ -2,7 +2,8 @@ class CommentsController < ApplicationController
   before_action :set_post
 
   def create
-    @post.comments.create! comment_params
+    comment = @post.comments.create! comment_params
+    CommentsMailer.submitted(comment).deliver_later
     redirect_to @post
   end
 
