@@ -1,0 +1,7 @@
+<h2>Comments</h2>
+
+<div id="<%= "#{dom_id post}_comments".camelize(:lower) %>">
+  <%= render post.comments %>
+</div>
+
+<%= render "comments/new", post: post %>
