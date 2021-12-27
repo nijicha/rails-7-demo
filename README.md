@@ -1,24 +1,18 @@
-# README
+Rails 7 DEMO
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> DEMO Blog posts and comments with quick preview Rails 7 structure and feature
 
-Things you may want to cover:
+## TODO
 
-* Ruby version
+### Production
 
-* System dependencies
+- [ ] ActiveStorage config to S3
+- [ ] Mailer (Postmark | Mailchimp)
 
-* Configuration
+# Resource
 
-* Database creation
+- DHH demo rails7
 
-* Database initialization
+   [![Rails 7 Demo](https://img.youtube.com/vi/mpWFrUwAN88/0.jpg)](https://www.youtube.com/watch?v=mpWFrUwAN88)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
