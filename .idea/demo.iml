@@ -79,6 +79,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.4.2, asdf: 3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v7.0.0, asdf: 3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, asdf: 3.0.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redis (v4.5.1, asdf: 3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.2.0, asdf: 3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.3.0, asdf: 3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, asdf: 3.0.3) [gem]" level="application" />
