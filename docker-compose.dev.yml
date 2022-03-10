@@ -1,0 +1,20 @@
+version: '3.2'
+
+services:
+  db:
+    image: postgres:13
+    container_name: rails-7-demo-db
+    environment:
+      - POSTGRES_DB=demo_development
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:5
+    container_name: rails-7-demo_redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  ruby-bundle:
